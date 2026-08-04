@@ -139,3 +139,73 @@ html, body {
   .release { justify-content: center; }
   .tagline { text-align: center; max-width: none; }
 }
+
+.site-footer {
+  text-align: center;
+  padding: 1.5rem;
+  background: #0a0a0a;
+}
+
+.site-footer a {
+  color: #f2ede3;
+  opacity: 0.6;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.site-footer a:hover {
+  opacity: 1;
+}
+
+/* Legal pages (Impressum etc.) */
+body.legal-page {
+  font-family: Georgia, serif;
+}
+
+.legal {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 10vh 6vw 8vh;
+  line-height: 1.6;
+}
+
+.legal h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: clamp(2.2rem, 6vw, 3rem);
+  margin: 0 0 1.5em;
+}
+
+.legal h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 1.8em 0 0.4em;
+}
+
+.legal p {
+  margin: 0 0 1em;
+}
+
+.legal a {
+  color: #f2ede3;
+}
+
+.legal-note {
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 2em;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(242, 237, 227, 0.5);
+  padding-bottom: 0.15rem;
+}
+
+.back-link:hover {
+  border-color: #f2ede3;
+}
