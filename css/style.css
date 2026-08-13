@@ -50,13 +50,18 @@ html, body {
   right: 2rem;
   z-index: 3;
   display: flex;
-  gap: 1.2rem;
 }
 
 .social-icon {
+  display: block;
   color: #f2ede3;
   opacity: 0.7;
   transition: opacity 0.2s ease;
+  margin-left: 1.2rem;
+}
+
+.social-icon:first-child {
+  margin-left: 0;
 }
 
 .social-icon svg {
@@ -163,6 +168,9 @@ html, body {
   .hero-content { gap: 4vh; padding: 5vh 6vw; }
   .release { justify-content: center; }
   .tagline { text-align: center; max-width: none; }
+  .social-icons { top: 1.2rem; right: 1.2rem; }
+  .social-icon { margin-left: 0.9rem; }
+  .social-icon svg { width: 22px; height: 22px; }
 }
 
 .site-footer {
