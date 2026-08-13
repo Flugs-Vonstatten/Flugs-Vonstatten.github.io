@@ -16,9 +16,19 @@ html, body {
   font-family: 'Playfair Display', Georgia, serif;
 }
 
+.site-header {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: #0a0a0a;
+}
+
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: calc(100vh - 60px);
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -45,10 +55,6 @@ html, body {
 }
 
 .social-icons {
-  position: absolute;
-  top: 2rem;
-  right: 2rem;
-  z-index: 3;
   display: flex;
 }
 
@@ -168,7 +174,8 @@ html, body {
   .hero-content { gap: 4vh; padding: 5vh 6vw; }
   .release { justify-content: center; }
   .tagline { text-align: center; max-width: none; }
-  .social-icons { top: 1.2rem; right: 1.2rem; }
+  .site-header { padding: 0.9rem 1.2rem; }
+  .hero { min-height: calc(100vh - 50px); }
   .social-icon { margin-left: 0.9rem; }
   .social-icon svg { width: 22px; height: 22px; }
 }
